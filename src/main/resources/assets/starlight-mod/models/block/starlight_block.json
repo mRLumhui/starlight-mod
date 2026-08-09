@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "starlight-mod:block/starlight_block"
+  }
+}
