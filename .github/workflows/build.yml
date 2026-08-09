@@ -1,29 +1,29 @@
 名称:  构建星光 mod
 
-关于:
-  推 :
-  分支机构  :   [ "主" ]
- pull_requestpull_request :
-  分支机构  :   [ "主" ]
- workflow_dispatch workflow_dispatch:
+        推   
+   :         建星光 mod
+      :  构建星光 mod        分支机构 建星光 mod 构建星光 mod        分支机构 建星光 mod使 :     [        “主”        ]
+ pull_request:
+ workflow_dispatch "主"[分支:
+ workflow_dispatch:
 
-工作:
-  构建 :
-  运行  :   ubuntu-latest
+                                  工作                                :
+ -use:actions/checkout@v4 
+-use:actions/checkout@v4 
 
-  步骤 :
-       -  使用:  动作/结账@v4
-       -  名称:  设置 JDK 17
-  使用  :   操作/设置-java@v4
-  关于 :
-              分布                          :                         :         
-     java 版本    木林铁  
-    跑步  
-17名称71     :     名称       -      
-chmod +x ./gradlew 名称   :                 跑步 跑步 使用 Gradle 构建
-            跑步跑      :            名称       -            
-./gradlew 构建   :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      使用 使用上传罐子神器
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            使用用                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    :                动关于
-  关于 :
-  名称  :   星光模组罐
-  路径  :   build/libs/*.jar
+-use:actions/checkout@v4:
+      名称名称    
+名称名称名称名称       :        设置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 JDK 17 置 JDK 17 JDK 17 置 JDK 17 JDK JDK 17 置 JDK 1置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 JDK 17 置 JDK 17 置 JDK 17 J 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 JDK 17 置 JDK 17 置 JDK 17 J   :                                                :                                                :             置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17设与 设置 JDK 17 使用        与            与                与                 设置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17设与 设置 JDK 17 使用        与            与                与        设置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17设与 设置 JDK 17 使用        与            与                与            设置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17设与 设置 JDK 1  7 使用        与            与                与        设置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17置 JDK 1 与置 JDK 1 7    置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17设与 设置 JDK 17 使用        与            与                与               K          设置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17设与 设置 JDK 17 使用        与            与                与        设置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17设与 设置 JDK 17 使用        与            与                与            设置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17设与 设置 JDK 17 使用        与            与                与        设置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17 置 JDK 17置 JD  
+与
+                                                                                                                                                                                                               与                                                                                                                                                                                                             :
+      -      
+       -       
+名称名称名称名称
+名称名称名称名称
+名称名称名称名称    :      dle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建使用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构le 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建使用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构Gradle 构建用 Gradle 构建用 Gradle 构建使用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Grad用 Gradle 构建用 Gradle 构建用 Gradle 构建使用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Grale 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建le 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用 Gradle 构建用  Gradle 构建用 Gradle 构建用 Gradle 构建:  使用 Gradle 构建
+ 运行:./gradlew build
+   -name:上传罐子工件 
+ 使用:actions/upload-artifact@v4
+  与 名称：星光 - 模组罐
+ path:build/libs/*.jar
+ path:build/libs/*.jar
