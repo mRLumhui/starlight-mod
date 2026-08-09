@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "starlight-mod:block/starlight_block"
+    }
+  }
+}
