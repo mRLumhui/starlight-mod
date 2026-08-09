@@ -1,0 +1,29 @@
+名称:  构建星光 mod
+
+关于:
+  推 :
+  分支机构  :   [ "主" ]
+ pull_requestpull_request :
+  分支机构  :   [ "主" ]
+ workflow_dispatch workflow_dispatch:
+
+工作:
+  构建 :
+  运行  :   ubuntu-latest
+
+  步骤 :
+       -  使用:  动作/结账@v4
+       -  名称:  设置 JDK 17
+  使用  :   操作/设置-java@v4
+  关于 :
+              分布                          :                         :         
+     java 版本    木林铁  
+    跑步  
+17名称71     :     名称       -      
+chmod +x ./gradlew 名称   :                 跑步 跑步 使用 Gradle 构建
+            跑步跑      :            名称       -            
+./gradlew 构建   :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      使用 使用上传罐子神器
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            使用用                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    :                动关于
+  关于 :
+  名称  :   星光模组罐
+  路径  :   build/libs/*.jar
