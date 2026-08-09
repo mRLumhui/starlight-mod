@@ -10,6 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - uses: actions/checkout@v4
@@ -24,7 +25,16 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build with Gradle
-        run: ./gradlew build --no-daemon
+        run: |
+          mkdir -p ~/.gradle/caches
+          cat > ~/.gradle/gradle.properties << 'EOF'
+          org.gradle.jvmargs=-Xmx2048m -XX:+UseParallelGC
+          systemProp.http.proxyHost=
+          systemProp.http.proxyPort=
+          systemProp.https.proxyHost=
+          systemProp.https.proxyPort=
+          EOF
+          ./gradlew build --no-daemon --no-parallel
 
       - name: Upload jar artifact
         uses: actions/upload-artifact@v4
