@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "starlight-mod",
+  "version": "1.0.0",
+  "name": "Starlight Mod",
+  "description": "星辉模组：添加星辉锭、星辉碎片、星辉块与可在主世界自然生成的星辉矿石（Y -64~16）。",
+  "authors": ["Yuanbao"],
+  "license": "MIT",
+  "entrypoints": {
+    "main": ["com.example.starlight.StarlightMod"],
+    "client": ["com.example.starlight.StarlightModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}
