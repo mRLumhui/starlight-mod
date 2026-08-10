@@ -3,14 +3,14 @@ name: Build Starlight Mod
 on:
   push:
     branches: [ "main" ]
-  pull_request:
+  pull request:
     branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
@@ -22,8 +22,10 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Make gradlew executable
-        run: chmod +x ./gradlew
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: wrapper
 
       - name: Configure Gradle
         run: |
@@ -31,9 +33,10 @@ jobs:
           printf '%s\n' 'org.gradle.daemon=false' 'org.gradle.parallel=false' 'org.gradle.jvmargs=-Xmx2048m -XX:+UseParallelGC' > ~/.gradle/gradle.properties
 
       - name: Build with Gradle
-        run: ./gradlew build --no-daemon --no-parallel
+        run: gradle build --no-daemon --no-parallel --stacktrace
 
       - name: List build outputs
+        if: always()
         run: ls -lh build/libs || true
 
       - name: Upload jar artifact
