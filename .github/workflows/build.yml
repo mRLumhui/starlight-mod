@@ -28,11 +28,7 @@ jobs:
       - name: Configure Gradle
         run: |
           mkdir -p ~/.gradle
-          cat > ~/.gradle/gradle.properties <<'EOF'
-          org.gradle.daemon=false
-          org.gradle.parallel=false
-          org.gradle.jvmargs=-Xmx2048m -XX:+UseParallelGC
-          EOF
+          printf '%s\n' 'org.gradle.daemon=false' 'org.gradle.parallel=false' 'org.gradle.jvmargs=-Xmx2048m -XX:+UseParallelGC' > ~/.gradle/gradle.properties
 
       - name: Build with Gradle
         run: ./gradlew build --no-daemon --no-parallel
